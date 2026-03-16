@@ -41,6 +41,18 @@ export default function Layout() {
       <main className="px-4 sm:px-6 lg:px-8 py-6">
         <Outlet />
       </main>
+      <footer className="border-t border-gray-200 py-4 text-center text-xs text-gray-400">
+        Walter is free software released under the{" "}
+        <a
+          href="https://www.gnu.org/licenses/gpl-3.0.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-gray-600"
+        >
+          GNU GPL v3
+        </a>
+        .
+      </footer>
     </div>
   );
 }
